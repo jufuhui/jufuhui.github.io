@@ -323,9 +323,14 @@ Quick StartCreate a new post1$ hexo new "My New Post...
 
   <div class="container">
       	<div class="row">
+	      <p> Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/iTimeTraveler/hexo-theme-hiker" target="_blank">Hexo-theme-hiker</a> </p>
 	      <p id="copyRightEn">Copyright &copy; 2014 - 2018 成都聚富汇商贸有限公司 All Rights Reserved.</p>
 	      
-	     
+	      
+    		<p class="busuanzi_uv">
+				访客数 : <span id="busuanzi_value_site_uv"></span> |  
+				访问量 : <span id="busuanzi_value_site_pv"></span>
+		    </p>
   		   
 		</div>
 
