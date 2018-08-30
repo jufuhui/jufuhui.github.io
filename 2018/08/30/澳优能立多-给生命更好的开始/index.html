@@ -202,8 +202,8 @@ var a = new Donate({
   title: '大吉大利，请我吃糖', // 可选参数，打赏标题
   btnText: '打赏支持', // 可选参数，打赏按钮文字
   el: document.getElementById('donation_div'),
-  wechatImage: '321.JPG',
-  alipayImage: '123.jpg'
+  wechatImage: 'http://m.qpic.cn/psb?/V1224ydm40zHg2/Qa1pdb4BR1ngVa2.YjQda*gThmgddgwfM4YiDS05a4E!/b/dDcBAAAAAAAA&bo=ogKAA6ICgAMRBzA!&rf=viewer_4',
+  alipayImage: 'http://m.qpic.cn/psb?/V1224ydm40zHg2/m*3zOtc2.fQ14EVs.7a2lCfvYnT1Vx4NTHz4jiChJX0!/b/dDQBAAAAAAAA&bo=rgJgA64CYAMRBzA!&rf=viewer_4'
 });
 </script>
       
@@ -277,7 +277,38 @@ var a = new Donate({
         
       </div>
       
-      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by </p>
+	      <p id="copyRightEn">Copyright &copy; 2014 - 2018 成都聚富汇商贸有限公司 All Rights Reserved.</p>
+	      
+	      
+  		   	<p id="copyRightCn">WenWuHe 保留所有权利</p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
     </div>
     <!-- <nav id="mobile-nav">
   

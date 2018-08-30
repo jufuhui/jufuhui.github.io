@@ -358,7 +358,38 @@
         
       </div>
       
-      
+      <footer id="footer">
+  
+
+  <div class="container">
+      	<div class="row">
+	      <p> Powered by </p>
+	      <p id="copyRightEn">Copyright &copy; 2014 - 2018 成都聚富汇商贸有限公司 All Rights Reserved.</p>
+	      
+	      
+  		   	<p id="copyRightCn">WenWuHe 保留所有权利</p>
+  		   
+		</div>
+
+		
+  </div>
+</footer>
+
+
+<!-- min height -->
+
+<script>
+    var wrapdiv = document.getElementById("wrap");
+    var contentdiv = document.getElementById("content");
+    var allheader = document.getElementById("allheader");
+
+    wrapdiv.style.minHeight = document.body.offsetHeight + "px";
+    if (allheader != null) {
+      contentdiv.style.minHeight = document.body.offsetHeight - allheader.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    } else {
+      contentdiv.style.minHeight = document.body.offsetHeight - document.getElementById("footer").offsetHeight + "px";
+    }
+</script>
     </div>
     <!-- <nav id="mobile-nav">
   
